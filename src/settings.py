@@ -5,7 +5,7 @@ from dataset_tools.templates import AnnotationType, CVTask, Industry, License
 ##################################
 # * Before uploading to instance #
 ##################################
-PROJECT_NAME: str = "Aerial Power"
+PROJECT_NAME: str = "Aerial Power Infrastructure"
 PROJECT_NAME_FULL: str = "Aerial Power Infrastructure Detection Dataset"
 
 ##################################

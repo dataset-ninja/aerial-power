@@ -15,15 +15,15 @@ from supervisely.io.fs import (
 )
 
 # if sly.is_development():
-load_dotenv("local.env")
-load_dotenv(os.path.expanduser("~/supervisely.env"))
+# load_dotenv("local.env")
+# load_dotenv(os.path.expanduser("~/supervisely.env"))
 
-api = sly.Api.from_env()
-team_id = sly.env.team_id()
-workspace_id = sly.env.workspace_id()
+# api = sly.Api.from_env()
+# team_id = sly.env.team_id()
+# workspace_id = sly.env.workspace_id()
 
 
-project_name = "Aerial Power Infrastructure"
+# project_name = "Aerial Power Infrastructure"
 dataset_paths = ["./APP_DATA/Aerial/Train", "./APP_DATA/Aerial/Test", "./APP_DATA/Aerial/Valid"]
 anns_paths = [
     "./APP_DATA/Aerial/Annotations/VOC/Train",
