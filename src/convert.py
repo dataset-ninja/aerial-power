@@ -26,7 +26,7 @@ anns_paths = [
     "./APP_DATA/Aerial/Annotations/VOC/Valid",
 ]
 batch_size = 10
-ds_names = ["Train", "Test", "Valid"]
+ds_names = ["train", "test", "valid"]
 images_ext = ".jpg"
 ann_ext = ".xml"
 
