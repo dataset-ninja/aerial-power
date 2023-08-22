@@ -15,52 +15,8 @@ from supervisely.io.fs import (
     get_file_size,
 )
 
-# https://zenodo.org/record/7781388
 
 
-# project_name = "Aerial Power Infrastructure"
-dataset_paths = ["./APP_DATA/Aerial/Train", "./APP_DATA/Aerial/Test", "./APP_DATA/Aerial/Valid"]
-anns_paths = [
-    "./APP_DATA/Aerial/Annotations/VOC/Train",
-    "./APP_DATA/Aerial/Annotations/VOC/Test",
-    "./APP_DATA/Aerial/Annotations/VOC/Valid",
-]
-batch_size = 10
-ds_names = ["train", "test", "valid"]
-images_ext = ".jpg"
-ann_ext = ".xml"
-
-
-def create_ann(image_path, anns_path):
-    labels = []
-
-    image_np = sly.imaging.image.read(image_path)[:, :, 0]
-    img_height = image_np.shape[0]
-    img_wight = image_np.shape[1]
-
-    file_name = get_file_name(image_path)
-
-    ann_path = os.path.join(anns_path, file_name + ann_ext)
-
-    if file_exists(ann_path):
-        tree = ET.parse(ann_path)
-        root = tree.getroot()
-
-        coords_xml = root.findall(".//bndbox")
-        for curr_coord in coords_xml:
-            left = int(curr_coord[0].text)
-            top = int(curr_coord[1].text)
-            right = int(curr_coord[2].text)
-            bottom = int(curr_coord[3].text)
-
-            rect = sly.Rectangle(left=left, top=top, right=right, bottom=bottom)
-            label = sly.Label(rect, obj_class)
-            labels.append(label)
-
-    return sly.Annotation(img_size=(img_height, img_wight), labels=labels)
-
-
-obj_class = sly.ObjClass("tbar", sly.Rectangle)
 
 
 def convert_and_upload_supervisely_project(
