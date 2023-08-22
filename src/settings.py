@@ -21,7 +21,7 @@ PROJECT_NAME_FULL: str = "Aerial Power Infrastructure Detection Dataset"
 ##################################
 LICENSE: License = License.CC_BY_4_0()
 APPLICATIONS: List[Union[Industry, Domain, Research]] = [Industry.Energy()]
-CATEGORY: Category = Category.EnergyAndUtilities(extra=Category.Aerial())
+CATEGORY: Category = Category.EnergyAndUtilities(extra=[Category.Aerial(), Category.Drones()])
 
 CV_TASKS: List[CVTask] = [CVTask.ObjectDetection()]
 ANNOTATION_TYPES: List[AnnotationType] = [AnnotationType.ObjectDetection()]
@@ -33,7 +33,7 @@ if RELEASE_DATE is None:
 HOMEPAGE_URL: str = "https://zenodo.org/record/7781388"
 # e.g. "https://some.com/dataset/homepage"
 
-PREVIEW_IMAGE_ID: int = 558363
+PREVIEW_IMAGE_ID: int = 2329943
 # This should be filled AFTER uploading images to instance, just ID of any image.
 
 GITHUB_URL: str = "https://github.com/dataset-ninja/aerial-power"

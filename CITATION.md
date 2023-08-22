@@ -1,6 +1,8 @@
 If you make use of the Aerial Power Infrastructure data, please cite the following reference:
 
 ```bibtex
+Antonis Savva, Rafael Makrigiorgis, Panayiotis Kolios, & Christos Kyrkou. (2022). Aerial Power Infrastructure Detection Dataset (2.1) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.718131
+
 @dataset{antonis_savva_2023_7781388,
   author       = {Antonis Savva and
                   Rafael Makrigiorgis and
@@ -16,4 +18,4 @@ If you make use of the Aerial Power Infrastructure data, please cite the followi
 }
 ```
 
-[🔗 Source](https://zenodo.org/record/7781388/export/hx)
+[Source](https://zenodo.org/record/7781388/export/hx)
