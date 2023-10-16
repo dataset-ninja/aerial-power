@@ -1,3 +1,3 @@
 # Aerial Power Infrastructure Detection Dataset
 
-Aerial Power Infrastructure is a dataset for object detection tasks.
+Aerial Power Infrastructure is a dataset for object detection task.
