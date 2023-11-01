@@ -63,6 +63,7 @@ AUTHORS: Optional[List[str]] = [
     "Panayiotis Kolios",
     "Christos Kyrkou",
 ]
+AUTHORS_CONTACTS: Optional[List[str]] = ["savva.d.antonis@ucy.ac.cy"]
 
 ORGANIZATION_NAME: Optional[
     Union[str, List[str]]
@@ -112,6 +113,7 @@ def get_settings():
     settings["paper"] = PAPER
     settings["citation_url"] = CITATION_URL
     settings["authors"] = AUTHORS
+    settings["authors_contacts"] = AUTHORS_CONTACTS
     settings["organization_name"] = ORGANIZATION_NAME
     settings["organization_url"] = ORGANIZATION_URL
     settings["slytagsplit"] = SLYTAGSPLIT
