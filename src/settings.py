@@ -14,7 +14,7 @@ from dataset_tools.templates import (
 # * Before uploading to instance #
 ##################################
 PROJECT_NAME: str = "Aerial Power Infrastructure"
-PROJECT_NAME_FULL: str = "Aerial Power Infrastructure Detection Dataset"
+PROJECT_NAME_FULL: str = "Aerial Power Infrastructure Detection Dataset v2.2"
 HIDE_DATASET = False  # set False when 100% sure about repo quality
 
 ##################################
