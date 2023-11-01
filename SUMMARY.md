@@ -1,4 +1,4 @@
-**Aerial Power Infrastructure Detection Dataset** is a dataset for an object detection task. It is used in the energy industry. 
+**Aerial Power Infrastructure Detection Dataset v2.2** is a dataset for an object detection task. It is used in the energy industry. 
 
 The dataset consists of 13831 images with 14919 labeled objects belonging to 1 single class (*t-bar*).
 
