@@ -1,6 +1,6 @@
 Dataset **Aerial Power Infrastructure** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/d/e/BG/GtAIR0n1VJs9gp1L3lDHG0khByXahpGBe7A8nTCOH2ejTVh2hWqAeJofzISG5BTNsPiOd4bGPkMCsbLfbfgjrAb4PGckTEIqN02mP49ZuUCkA3J5fAG48ikLRcKx.tar)
+ [Download](https://www.dropbox.com/scl/fi/781akcj4ygcjtnxi4xbhp/aerial-power-infrastructure-DatasetNinja.tar?rlkey=j15ay8lj59glnsoi3ikh0n2rf&dl=1)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
